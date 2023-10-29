@@ -30,9 +30,6 @@ If the installation is correct. It should show like this.
 ```bash
 v16.20.0
 ```
-#### For Windows
-Follow this link to install [Make](https://leangaurav.medium.com/how-to-setup-install-gnu-make-on-windows-324480f1da69) 
-
 #### Clone Dapp repository
 
 ```bash
@@ -83,7 +80,7 @@ npm start
 ```
 
 #### Conclusion
- It should finally boot up frontend web that can upload file and wait for transaction that uploaded on bnb greenfield decentralize storage.
-Your frontend should look like this
+It should finally boot up frontend web that can upload file and wait for transaction that uploaded on bnb greenfield decentralize storage.
+Your frontend should look like this. The transaction would take around 70 seconds.
 ![Alternative text for the image](./frontend/public/front-end-screenshot.png)
 
