@@ -4,9 +4,10 @@ Simple Dapp upload image files on bnb greenfield decentralize storage using shel
 
 ## How to initialize the project
 #### Prerequisites
-- [Golang](https://go.dev/doc/install) (version 1.20.5 or higher)
 
-#### Installation
+
+#### Installation for Golang
+- [Golang](https://go.dev/doc/install) (version 1.20.5 or higher)
 1. Download and install Golang from the official download page.
 2. Verify the installation by running the following command in your terminal:
 
@@ -18,9 +19,9 @@ If the installation is correct. It should show like this.
 ```bash
 go version go1.20.5 darwin/arm64
 ```
+#### Installation for NodeJs
 - [Node.js](https://nodejs.org/en/download) (LTS version)
 
-#### Installation
 1. Download and install Node.js from the official download page.
 2. Verify the installation by running the following command in your terminal:
 
