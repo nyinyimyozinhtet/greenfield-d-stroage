@@ -30,7 +30,8 @@ If the installation is correct. It should show like this.
 ```bash
 v16.20.0
 ```
-
+#### For Windows
+Follow this link to install [Make] (https://leangaurav.medium.com/how-to-setup-install-gnu-make-on-windows-324480f1da69) 
 #### Clone Dapp repository
 
 ```bash
