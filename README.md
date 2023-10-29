@@ -1,10 +1,7 @@
 # greenfield-d-stroage
 Simple Dapp upload image files on bnb greenfield decentralize storage using shellscript
 
-
 ## Prerequisites
-
-
 #### Installation for Golang
 - [Golang](https://go.dev/doc/install) (version 1.20.5 or higher)
 1. Download and install Golang from the official download page.
@@ -84,5 +81,7 @@ npm start
 ```
 
 #### Conclusion
- It should finnally boot up frontend web that can upload file and wait for transaction that uploaded on bnb greenfield decentralize storage
+ It should finally boot up frontend web that can upload file and wait for transaction that uploaded on bnb greenfield decentralize storage.
+Your frontend should look like this
+![Alternative text for the image](./frontend/public/front-end-screenshot.png)
 
