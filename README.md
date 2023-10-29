@@ -41,19 +41,54 @@ If the installation is correct. It should show like this.
 v16.20.0
 ```
 
-### Setup greenfield environment
-#### clone greenfield-cmd github
+## Clone Dapp repository
 
-## Usage
-Clone the repository
 ```bash
 git clone https://github.com/nyinyimyozinhtet/greenfield-d-stroage.git
 ```
 
-### Backend
-1. Go to the backend directory.
-2. Run the following command to install dependencies:
+### Setup greenfield environment
+#### Clone greenfield-cmd repository
 
+```bash
+git clone https://github.com/bnb-chain/greenfield-cmd.git
+
+cd greenfield-cmd
+
+make build
+
+cd build
+```
+
+Copy ```gnfd-cmd``` from ```greenfield-cmd/build/``` into ```/greenfield-d-storage/backend/upload-script/build``` 
+
+Go to ```/greenfield-d-storage/backend/upload-script/build``` diractory via terminal or commandline and run this command:
+```bash
+./gnfd-cmd account import key.txt
+```
+After you run the command you will see ```Please enter the passphrase now:```. In this case put ```test``` as passphase and press ```enter```.
+
+## Start DApp
+### Backend
+1. Go to the backend directory via terminal or commandline.
+2. Run the following command to install dependencies:
+```bash
+go mod tidy
+```
+3. Run backend server:
 ```bash
 go run main.go
 ```
+### Frontend
+1. Go to the front directory via terminal or commandline.
+2. Run the following command to install dependencies:
+```bash
+npm i
+```
+3. Run frontend server
+```bash
+npm start
+```
+
+# It should finnally boot up frontend web that can upload file and wait for transaction that uploaded on bnb greenfield decentralize storage
+
