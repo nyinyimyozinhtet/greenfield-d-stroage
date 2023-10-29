@@ -2,8 +2,7 @@
 Simple Dapp upload image files on bnb greenfield decentralize storage using shellscript
 
 
-## How to initialize the project
-#### Prerequisites
+## Prerequisites
 
 
 #### Installation for Golang
@@ -35,13 +34,13 @@ If the installation is correct. It should show like this.
 v16.20.0
 ```
 
-## Clone Dapp repository
+#### Clone Dapp repository
 
 ```bash
 git clone https://github.com/nyinyimyozinhtet/greenfield-d-stroage.git
 ```
 
-### Setup greenfield environment
+#### Setup greenfield environment
 #### Clone greenfield-cmd repository
 
 ```bash
@@ -84,5 +83,6 @@ npm i
 npm start
 ```
 
-# It should finnally boot up frontend web that can upload file and wait for transaction that uploaded on bnb greenfield decentralize storage
+#### Conclusion
+ It should finnally boot up frontend web that can upload file and wait for transaction that uploaded on bnb greenfield decentralize storage
 
